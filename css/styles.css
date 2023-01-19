@@ -206,7 +206,7 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  transition-property: background-color, color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -397,7 +397,7 @@ p {
   align-items: center;
   justify-content: center;
 
-  transition-property: background-color, color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -405,7 +405,7 @@ p {
 .team-soc-icon {
   fill: var(--primary-icon-color);
 
-  transition-property: background-color, fill;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
